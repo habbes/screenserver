@@ -1,0 +1,29 @@
+{
+  "name": "screenserver",
+  "version": "0.1.0",
+  "description": "Broadcast your screen live to people in the local network through their web browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habbes/screenserver.git"
+  },
+  "keywords": [
+    "broadcast",
+    "screen",
+    "share",
+    "screen",
+    "screencast"
+  ],
+  "author": "Habbes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/habbes/screenserver/issues"
+  },
+  "homepage": "https://github.com/habbes/screenserver#readme",
+  "dependencies": {
+    "socket.io": "^1.3.6"
+  }
+}

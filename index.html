@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	  var socket = io();
+	</script>
+</head>	
+<body>
+	<img id="screenshot">	
+	<script>
+		var screenshot = document.getElementById("screenshot");
+		socket.on('screen', function(shot){
+		  screenshot.src = "data:image/jpeg;base64," + shot;
+	  	});
+	</script>
+</body>
+</html>
