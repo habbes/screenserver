@@ -1,13 +1,13 @@
 # Screenserver 
 
-This apps allows you to broadcast your screen live to the people in your local network,
+This app allows you to broadcast your screen live to the people in your local network,
 which they can view in their browsers.
 
 ## Server Setup
 
-**Only available for windows**
+**Only available for Windows**
 
-**Requires Node JS**
+**Requires [Node JS](https://nodejs.org/download/)**
 
 Clone the repository on your machine, cd into the project directory and run
 
@@ -24,9 +24,9 @@ You can find your IP by running `ipconfig`.
 
 ## Client Side
 
-Open your browser and enter `http://_<SERVER_URL>_:3000`.
+Open your browser and enter `http://<SERVER_IP>:3000`.
 
 
 ## Acknowledgement
 
-Inspired from [Screen Task by Eslamx7](https://github.com/EslaMx7/ScreenTask)
+Insights from [Screen Task by Eslamx7](https://github.com/EslaMx7/ScreenTask)
